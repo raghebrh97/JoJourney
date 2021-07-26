@@ -1,3 +1,3 @@
 # jojourney
 
-Prject about hotels and exciting sites in Jordan
+an android application about hotels and exciting sites in Jordan
