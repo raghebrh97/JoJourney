@@ -23,14 +23,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  provider: ^5.0.0
-  http: ^0.13.0
-  shared_preferences: ^2.0.4
-  transparent_image: ^2.0.0
+  provider: ^4.3.3
+  http: ^0.12.2
+  shared_preferences: ^0.5.12+4
+  transparent_image: ^1.0.0
   image_slider: ^1.0.2
-  url_launcher: ^6.0.2
   flutter_rating_bar: ^4.0.0
-  intl: ^0.17.0
+  intl: ^0.16.1
+  url_launcher: ^6.0.0-nullsafety
 
 
 
