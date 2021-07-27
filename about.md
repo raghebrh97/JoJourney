@@ -3,6 +3,6 @@ a flutter application which shows a list of the best toursim sites and hotels in
 
 Using Firebase as a web server to authenticate users and do basic CRUD operations on Database.
 
-communicating with Firebase using HTTP requests/REST API.
+communicating with Firebase Auth/Real Time DataBase using HTTP requests/REST API.
 
 Using Provider package for state management.
