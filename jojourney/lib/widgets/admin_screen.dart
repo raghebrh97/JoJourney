@@ -33,21 +33,23 @@ class _AdminScreenState extends State<AdminScreen> {
                     )),
                 Expanded(
                     flex: 2,
-                    child: DropdownButton(
-                      hint: Text('Select An Operation from the list'),
-                      value: selectedOption,
-                      items: options.map((item) {
-                        return DropdownMenuItem(
-                          value: item,
-                          child: Text(item),
-                        );
-                      }).toList(),
-                      onChanged: (newVal) {
-                        setState(() {
-                          selectedOption = newVal;
-                          selectedOptionIndex = options.indexOf(selectedOption);
-                        });
-                      },
+                    child: FittedBox(
+                      child: DropdownButton(
+                        hint: Text('Select An Operation from the list'),
+                        value: selectedOption,
+                        items: options.map((item) {
+                          return DropdownMenuItem(
+                            value: item,
+                            child: Text(item),
+                          );
+                        }).toList(),
+                        onChanged: (newVal) {
+                          setState(() {
+                            selectedOption = newVal;
+                            selectedOptionIndex = options.indexOf(selectedOption);
+                          });
+                        },
+                      ),
                     )),
               ],
             ),
